@@ -1,0 +1,13 @@
+[package]
+name = "playfair-dna"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cli-clipboard = "0.4.0"
+eframe = "0.27.2"
+env_logger = "0.11.3"
+itertools = "0.12.1"
+phf = { version = "0.11", features = ["macros"] }
